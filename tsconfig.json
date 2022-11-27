@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "out": "dist/main.js",
+    "watch": true
+  },
+  "files": [
+    "src/util_classes.ts",
+    "src/trees.ts",
+    "src/main.ts",
+  ]
+}
