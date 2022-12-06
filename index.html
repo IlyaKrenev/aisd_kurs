@@ -6,22 +6,13 @@
         <link rel="stylesheet" href="src/styles.css">
     </head>
     <body>
-        <div class="inputContainer">
-            <p>Элемент: </p>
-            <input class="searchInput">
-        </div>
-        <div class="main"></div>
-        <div class="highlighter"></div>
-        <canvas class="myCanvas" width="1800" height="900"></canvas>
-        <div>
-            <div class="expInputContainer">
-                <p>Выражение: </p>
-                <input class="expInput">
-                <button class="expButton1">В постфиксную</button>
-                <button class="expButton2">В инфиксную</button>
-                <button class="expButton3">В префиксную</button>
-                <p class="expRes"></p>
-            </div>
+        <div class="expInputContainer">
+            <p>Введите выражение в любой нотации: </p>
+            <p class="info">(операторы и операнды вводятся через пробел)</p>
+            <input class="expInput">
+            <button class="expButton">Вычислить</button>
+            <p class="ansText">Ответ: </p>
+            <h3 class="ansValue"></h3>
         </div>
         <script src="dist/main.js"></script>
     </body>

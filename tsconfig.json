@@ -6,7 +6,6 @@
   },
   "files": [
     "src/util_classes.ts",
-    "src/trees.ts",
     "src/main.ts",
   ]
 }
